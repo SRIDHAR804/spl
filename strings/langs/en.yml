@@ -246,14 +246,14 @@ UNBAN_BUTTON : "🗑 Unban Assistant"
 L_B_1 : "🚀 Checkout Lyrics Now"
 
 # Start
-S_B_1 : "🗒 Commands"
-S_B_2 : "🔧 Settings"
-S_B_3 : "📨 Support"
-S_B_4 : "📨 Channel"
-S_B_5 : "✚ Add me to your Group"
+S_B_1 : "🗒 𝐂ᴏᴍᴍᴇɴᴛs"
+S_B_2 : "🔧 𝐓ʜᴇᴠᴀ 𝐈ʟᴀᴛʜᴀ 𝐀ᴀɴɪɪ"
+S_B_3 : "📨 𝐆ʀᴘ 𝐉ᴏɪɴ 𝐀ɢᴜ 𝐃ᴀ 𝐁ᴏᴅʏ 𝐒ᴏᴅᴀ"
+S_B_4 : "📨 𝐀ɴɢᴀ 𝐎ɴɴᴜᴍ 𝐈ʟᴀ"
+S_B_5 : "✚ 𝐆ᴛᴏᴜᴘ 𝐋ᴀ 𝐀ᴅᴅ 𝐏ᴀɴɴɪᴋᴏ 𝐌ᴀᴄʜᴀ"
 S_B_6 : "💡 Git Repo"
-S_B_7 : "👤 Bot Owner"
-S_B_8 : "🔎 How to Use? Commands Menu."
+S_B_7 : "👤 𝐎ɴᴡᴇʀ"
+S_B_8 : "🔎 𝐈ᴛʜᴀ 𝐏ᴀᴛʜᴜ 𝐍ɪ 𝐎ɴɴᴜᴍ 𝐏ᴀɴɴᴀᴍᴀᴛᴛᴀ."
 
 #Help 
 H_B_1 : "Admin Commands"
@@ -342,8 +342,8 @@ sudo_1 : "{0} is already a sudo user."
 sudo_2 : "Added **{0}** to Sudo Users." 
 sudo_3 : "Not a part of Bot's Sudo."
 sudo_4 : "Removed from Bot's Sudo User"
-sudo_5 : "⭐️<u> **Owners:**</u>\n"
-sudo_6 : "\n⭐️<u> **Sudo Users:**</u>\n"
+sudo_5 : "⭐️<u> **𝐊ɪɴɢ:**</u>\n"
+sudo_6 : "\n⭐️<u> **𝐖ᴏʀᴋᴇʀ:**</u>\n"
 sudo_7 : "No Sudo Users"
 
 #Block
