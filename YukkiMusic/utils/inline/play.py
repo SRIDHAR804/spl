@@ -46,15 +46,17 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text=_["PL_B_3"],
-                callback_data=f"PanelMarkup {videoid}|{chat_id}",
-            ),
+                text="👑 ᴏᴡɴᴇʀ 👑", url=f"https://t.me/devil_of_izzy")
         ],
         [
             InlineKeyboardButton(
-                text=_["CLOSEMENU_BUTTON"], callback_data="close"
-            )
+                text=_["PL_B_3"],
+                callback_data=f"PanelMarkup {videoid}|{chat_id}",
+            ),
+            InlineKeyboardButton(
+                text="𓆩🥳 ᴄʜᴀᴛ 🥳𓆪", url=f"https://t.me/melting_moon")
         ],
+ 
     ]
     return buttons
 
@@ -75,7 +77,67 @@ def telegram_markup_timer(_, chat_id, played, dur):
             ),
             InlineKeyboardButton(
                 text=_["CLOSEMENU_BUTTON"], callback_data="close"
+            ),def telegram_markup_timer(_, chat_id, played, dur):
+    bar = random.choice(selections)
+    buttons = [
+        [
+            InlineKeyboardButton(
+                text=f"{played} {bar} {dur}",
+                callback_data="GetTimer",
+            )
+        ],
+        [
+            InlineKeyboardButton(
+                text=_["PL_B_3"],
+                callback_data=f"PanelMdef telegram_markup_timer(_, chat_id, played, dur):
+    bar = random.choice(selections)
+    buttons = [
+        [
+            InlineKeyboardButton(
+                text=f"{played} {bar} {dur}",
+                callback_data="GetTimer",
+            )
+        ],
+        [
+            InlineKeyboardButton(
+                text=_["PL_B_3"],
+                callback_data=f"PanelMarkup None|{chat_id}",
             ),
+            InlineKeyboardButton(
+                text=_["CLOSEMENU_BUTTON"], callback_data="close"def telegram_markup_timer(_, chat_id, played, dur):
+    bar = random.choice(selections)
+    buttons = [
+        [
+            InlineKeyboardButton(
+                text=f"{played} {bar} {dur}",
+                callback_data="GetTimer",
+            )
+        ],
+        [
+            InlineKeyboardButton(
+                text=_["PL_B_3"],
+                callback_data=f"PanelMarkup None|{chat_id}",
+            ),
+            InlineKeyboardButton(
+                text=_["CLOSEMENU_BUTTON"], callback_data="close"
+            ),
+        ],
+    ]
+    return buttons
+
+            ),
+        ],
+    ]
+    return buttons
+arkup None|{chat_id}",
+            ),
+            InlineKeyboardButton(
+                text=_["CLOSEMENU_BUTTON"], callback_data="close"
+            ),
+        ],
+    ]
+    return buttons
+
         ],
     ]
     return buttons
