@@ -17,18 +17,18 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "14569061"))
+API_HASH = getenv("API_HASH", "27cdbce9ac58e83cec07e1147d9c9e05")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "5609170691:AAH2LY_kZSfPSyA5c2yI-RvlMaPmYnaSNpk")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Sriizzy:Sriizzy@cluster0.ubi9r5h.mongodb.net/?retryWrites=true&w=majority")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
-    getenv("DURATION_LIMIT", "60")
+    getenv("DURATION_LIMIT", "999")
 )  # Remember to give value in Minutes
 
 # Duration Limit for downloading Songs in MP3 or MP4 format from bot
@@ -37,14 +37,14 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001812567272"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "one love music Izzy)
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "").split())
+    map(int, getenv("OWNER_ID", "5729339332").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -65,10 +65,10 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", None
+    "SUPPORT_CHANNEL", "https://t.me/tamil_junctions"
 )  # Example:- https://t.me/TheYukki
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", None
+    "SUPPORT_GROUP", "https://t.me/melting_mooon"
 )  # Example:- https://t.me/YukkiSupport
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
@@ -103,8 +103,8 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 GITHUB_REPO = getenv("GITHUB_REPO", None)
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "cf6365361b7041b4a51036553acd9d4f")
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "8b96133fe3d942faae5066be2f3cde91")
 
 # Maximum number of video calls allowed on bot. You can later set it via /set_video_limit on telegram
 VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "3"))
@@ -135,7 +135,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQCAkWoiV8fHzfDf7q3hvgcBw_HaUuc7unJfBUroJ4Mecs7QfoM63Bhl1xzgi8n-K_6RDm8P45q0sGYwPOI_CeIjoU_P4Vz2lwfYv074WcQGbz-X_kcoMMyzTHePZjclXp7ryVOcVmfHSjMy2A_IathY-8qUgSi14UalsOOOr34Ye9qs8Yg1vg0DpTZOQ_IhhslqMWu9gl3rx2UdFwUMMiqtqyDWPajMXGcSdMZ2LusakaXijQx70SvrVK16YQOKhz-YkerJzur6ELG1gIlNNxRYj82dyYHECZa5ETW6tkYkxu1ikqZQKxOcwDOxbBAn9yViIUITF_FYmHEPow-wcnS3AAAAAVgmRMIA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -184,7 +184,7 @@ GLOBAL_IMG_URL = getenv(
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "assets/Stats.jpeg",
+    "https://telegra.ph/file/eb5c8960da2c2f22f8303.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
