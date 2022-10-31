@@ -1,0 +1,27 @@
+v": {
+        "BOT_TOKEN": {
+            "description": "telegram bot token here",
+            "required": true
+        },
+        "KUKI_API": {
+            "description": "join @metavoidsupport",
+            "required": true
+        },
+        "ERROR_LOG": {
+            "description": "error channel log id",
+            "required": true
+        },
+        "MONGO_URL": {
+            "description": "mongo db url here",
+            "required": true
+        },
+        "API_ID": {
+            "description": "telegram api id here",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "telegram api hash here",
+            "required": true
+        }
+    },
+    "addons": [
